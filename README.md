@@ -1,7 +1,14 @@
 Android Dropbear Builds
 =======================
 
-![Build status](https://github.com/ribbons/android-dropbear/workflows/Build/badge.svg)
+This is the fork of ribbons/android-dropbear repo with added support for password authentication. It was achieved by reusing netbsd_getpass.c file and patching Dropbear accordingly.
+This patch is confirmed to work with DROPBEAR_2022.82 source code.
+
+armv7a, aarch64, i686 and x86_64 precompiled Android binaries are available for download from Releases tab.
+
+
+Original content
+----------------
 
 Build script and configuration to cross-compile
 [Dropbear](https://matt.ucc.asn.au/dropbear/dropbear.html) for Android.
